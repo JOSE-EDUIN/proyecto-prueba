@@ -1,0 +1,248 @@
+body{
+    background-color: rgb(14, 1, 37);
+    margin: auto;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #0c6651;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 15px;
+}
+.menu a li{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2px;  
+    font-family: "myFirstFont";
+    font-size: 14px;
+}
+.menu a li:hover{
+    background: #ef8354;
+}
+.reloj { width: 150px; height: 30px; padding: 5px 10px; border: 1px solid rgb(0, 231, 162); 
+    font: bold 1.5em dotum, "lucida sans", arial; 
+    text-align: center;
+    color: rgb(0, 204, 255);
+    float: right; margin: 1em 0em 1em 1em; }
+h1#formh1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1#pg1h1{
+    text-align: center;
+    color: rgb(0, 136, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.index{
+    text-align: center;
+    color: rgb(0, 136, 255);
+}
+label{
+    display: inline-block;
+    width: 105px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+form {
+    background-color: teal;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-left: 37%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    width: 325px;
+    border-radius: 15px;
+}
+input{
+    border: 0;
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 6px;
+    width: 195px;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:focus{
+    border-color: #18A383;
+}
+button{
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgb(223, 221, 221);
+    padding: 15px;
+    color: black;
+    margin-left: 15px;
+    font-size: 1em;
+    width: 290px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button#Cambio_color{
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    background-color: #18A383;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    font-size: 1.5em;
+    width: 120px;
+    font-family: 'Courier New', Courier, monospace;
+}
+article#art-left{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 60px;
+    font-size: 16px;
+    width: 600px;
+    float: left;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+article img{
+    margin-top: 10%;
+    width: 600px;
+    height: 300px;
+}
+article#image-article{
+    width: 660px;
+    float: right;
+    margin-bottom: 184px;
+}
+article#art-center{
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+article h2{
+    text-align: center;
+}
+article iframe{
+    margin-left: 140px;
+}
+article p{
+    color: rgb(220, 224, 240);
+}
+.ulindex{
+    color: cyan;
+}
+article#pg1left{
+    width: 150px;
+    float: left;
+    margin-left: 40px;
+}
+article#pg1right{
+    width: 800px;
+    float: right;
+}
+img#pg1img{
+    width: 450px;
+    height: 250px;
+}
+iframe#pg1video{
+    width: 450px;
+    height: 250px;
+    margin-left: 0px;
+}
+h3#pag1h3{
+    text-align: center;
+    color: white;
+}
+article#pg1right p{
+    text-align: justify;
+    margin-right: 45px;
+}
+/*FORMATO DE FUENTES*/
+@font-face {
+    font-family: "myFirstFont";
+    src:url("../fonts/hug_me_tight.ttf") ;
+ }
+ @font-face {
+    font-family: "open esti";
+    src:url("../fonts/friendly.otf") ;
+ }
+ @font-face {
+    font-family: "open2 esti";
+    src:url("../fonts/dream_orphans.ttf") ;
+ }
+ @font-face {
+    font-family: "PARRAFOS";
+    src:url("../fonts/Louis_George.ttf") ;
+ }
+
+/*Background formulario*/
+
+.color{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+#hexadecimal{
+	font-size: 35px;
+	color: #ffffff;
+	display: block;
+	text-transform: uppercase;
+	margin: 15px;
+}
+
+.color button{
+	cursor: pointer;
+	background: none;
+	outline: none;
+	font-size: 15px;
+	color: #ffffff;
+	border: 3px solid #fff;
+	border-radius: 25px;
+	padding: 10px 15px;
+	transition: transform .3s ease
+}
+
+.color button:hover{
+	transform: scale(1.1);
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.hex:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
