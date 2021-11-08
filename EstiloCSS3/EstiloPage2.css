@@ -1,0 +1,133 @@
+body{
+    background-color: #f8f8b6 ;
+    margin: auto;
+}
+
+.pie p {
+    border-radius: 16px 4px;
+    background-color: #777;
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+  .reloj { width: 150px; height: 30px; padding: 5px 10px; border: 1px solid rgb(0, 0, 0); 
+    font: bold 1.5em dotum, "lucida sans", arial; 
+    text-align: center;
+    color: rgb(10, 10, 10);
+    float: right; margin: 2em 0em 1em 1em; }
+    
+ /* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 10%;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+/* contenedor para cajas flexibles */
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+ /* Style the navigation menu */
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+  .TextFijo {
+    text-align: right;
+    color: rgb(5, 0, 0);
+  }
+  /*DISEÑO DE LA BARRA SUPERIOR*/
+  .barrap {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: rgba(144, 189, 41, 0.966);
+    width: 100%;
+  z-index: 10000;
+  }
+  
+  li {
+    float: left ;
+  }
+  
+  .barrap li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .inicio:hover {
+    background-color: rgb(58, 248, 207);
+    
+  }
+  .inicio {
+      background-color: #068646;
+  }
+  
+  .active {
+    background-color: lightblue;
+  }
+  .wrapper {
+    width: 100%;
+    margin: auto;
+    overflow:hidden;    
+  }
+
+  .contenido {
+    padding-top: 50px;
+  }
+
+  /*Texto parrafo 1*/
+  .centro {
+    text-shadow: 2px 2px 5px rgb(60, 216, 94);
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+  
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  nav figure img#ventaja {
+    float:center;
+    max-width: 250px;
+    height: 250px;
+}
+
+figcaption {
+    text-align: center; 
+    text-decoration: underline;
+    font-size: 40px;
+    text-shadow: 1px 1px;
+    font-family: "Times New Roman", Times, serif;
+}
