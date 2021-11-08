@@ -1,0 +1,286 @@
+body{
+    background-color: #047988;
+    margin: auto;
+    
+}
+.reloj { width: 150px; height: 30px; padding: 5px 10px; border: 1px solid rgb(0, 231, 162); 
+    font: bold 1.5em dotum, "lucida sans", arial; 
+    text-align: center;
+    color: rgb(0, 204, 255);
+    float: right; margin: 1em 3em 1em 1em; }
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #0c6651;
+    width: 1000%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 15px;
+}
+.menu a li{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+.menu a li:hover{
+    background: #ef8354;
+}
+h1{
+    text-align: center;
+    color: white;
+    
+}
+h1#font{
+    width: 25%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 37%;
+    color: #fffbfb;
+    background: #ff009d4b;
+    text-align: center;
+    border-radius: 25px;
+  }
+label{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+}
+form {
+    background-color: rgb(81, 96, 105);
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 0 auto;
+    width: 325px;
+    border-radius: 15px;
+}
+input{
+    border: 0;
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 25px;
+}
+input:focus{
+    border-color: #18A383;
+}
+button{
+    border: 0;
+    outline: none;
+    background-color: #38e440;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 1em;
+    width: 290px;
+}
+
+/*FORMATO DE FUENTES*/
+@font-face {
+    font-family: "myFirstFont";
+    src:url("../fonts/hug_me_tight.ttf") ;
+ }
+ @font-face {
+    font-family: "open esti";
+    src:url("../fonts/friendly.otf") ;
+ }
+ @font-face {
+    font-family: "open2 esti";
+    src:url("../fonts/dream_orphans.ttf") ;
+ }
+ @font-face {
+    font-family: "PARRAFOS";
+    src:url("../fonts/Louis_George.ttf") ;
+ }
+ h1{
+    font-family: "open esti";
+ }
+.p1{
+    font-family: "open2 esti";
+}
+.column2{
+    font-family: "open esti";
+
+}
+
+/* Pagina 5*/
+.ima1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+  }
+  .p1{
+      text-indent: 50px;
+      text-align:center;
+      letter-spacing: 3px;
+      font-size:15px;
+      color: white;
+      
+      
+  }
+
+
+  div.TextI {
+      border: 1px solid gray;
+      padding: 20px;
+           
+  }
+  div.polaroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: rgb(14, 1, 37);
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+    
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 15px 20px;
+  }
+
+  h2{
+      font-family: "open esti";
+      color: rgb(240, 240, 240);
+  }
+  .imag{    
+    color: rgb(0, 136, 255);
+    font-family: "myFirstFont";
+    letter-spacing: 3px;
+  }
+
+/*Dato Curioso albert-------------*/
+h2#pg5h3{
+    margin-right: 60px;
+    text-align: center;
+    font-family: "open esti";
+    color: rgb(240, 240, 240);
+    border-bottom: 6px solid rgb(255, 174, 0);
+    background-color: rgb(14, 1, 37);
+}
+.column {
+    margin-left: 60px;
+    float: left;
+    width: 300px;
+   padding: 15px;
+   background-color: rgb(15, 54, 90);
+   color: white;
+   
+}
+div.column{ 
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgb(34, 34, 34); 
+}
+  .p2 { 
+      font-family: "myFirstFont";
+      letter-spacing: 2px;
+      color: white;
+      font-size:15px;  
+}
+  .dato1{
+    width: 1050px;
+    float: left;
+    margin-left: 60px;
+  }
+  .ima2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+  .p3{
+    font-family: "PARRAFOS";
+    text-indent: 0px;
+    text-align: justify;
+    margin-right: 150px;
+    letter-spacing: 1px;
+    color: white;
+  }
+  iframe#videopag5{
+    width: 450px;
+    height: 250px;
+    margin-left: 250px;
+}
+/*CREADORES --------------*/
+.p4{
+    font-family: "PARRAFOS";
+    text-indent: 0px;
+    text-align: justify;
+    margin-right: 150px;
+    letter-spacing: 1px;
+    width: 1000px;
+    color: white;
+  }
+h2#pg5h2{
+    text-align: center;
+    font-family: "open esti";
+    color: rgb(240, 240, 240);
+    border-bottom: 6px solid rgb(255, 174, 0);
+    background-color: rgb(14, 1, 37);
+}
+.Parrafo2{
+    margin-left: 100px;
+}
+.ColumPa2{
+    float: right;
+    margin-right: 50px;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(15, 54, 90);
+    color: white;
+}
+.imag2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+  }
+div.ColumPa2{ 
+    width: 260px;
+    height: 250px;
+    border: 2px solid rgb(34, 34, 34); 
+}
+/*COMO CREAR ---------*/
+h2#pg5h3{
+    text-align: center;
+    font-family: "open esti";
+    color: rgb(240, 240, 240);
+    border-bottom: 6px solid rgb(255, 174, 0);
+    background-color: rgb(14, 1, 37);
+}
+.p5{
+    margin-left: 60px;
+    font-family: "PARRAFOS";
+    text-indent: 0px;
+    text-align: center;
+    margin-right: 150px;
+    letter-spacing: 1px;
+    color: white;
+  } 
+.Parrafo3{
+    margin-left: 60px;
+}
+iframe#video2pag5{
+    width: 450px;
+    height: 250px;
+    margin-left: 550px;
+    margin-right: 500px;
+}
+.pie{
+    border-bottom: 4px solid rgb(184, 176, 160);
+    background-color: rgb(184, 176, 160);
+}
